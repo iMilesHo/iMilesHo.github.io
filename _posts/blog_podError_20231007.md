@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2023-10-07 19:29:49 -0400
+categories: jekyll update
+---
+
 ## pod init error
 
 ```
