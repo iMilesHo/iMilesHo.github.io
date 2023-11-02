@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My First Jekyll Post"
+title:  "iOS development debuging error record"
 date:   2023-10-07
 categories: jekyll update
 ---
