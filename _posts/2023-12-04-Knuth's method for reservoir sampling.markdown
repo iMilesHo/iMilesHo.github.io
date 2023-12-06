@@ -52,13 +52,13 @@ The magic happens with the line `if (Math.random() < 1.0 / count)`. This simple 
 
 The beauty and fairness of Knuth's method become evident in its derivation:
 
-1. **Initial Selection Probability**: The \(i\)th word is initially chosen with a probability of \(\frac{1}{i} \).
+1. **Initial Selection Probability**: The $i$th word is initially chosen with a probability of $\frac{1}{i} $.
 
-2. **Probability of Retention**: For the word to remain as the champion, it must not be replaced by subsequent words. The probability of not being replaced by the next word is \(\frac{i}{i+1} \), and this pattern continues with each subsequent word.
+2. **Probability of Retention**: For the word to remain as the champion, it must not be replaced by subsequent words. The probability of not being replaced by the next word is $\frac{i}{i+1} $, and this pattern continues with each subsequent word.
 
-3. **Compound Probabilities**: Multiplying these probabilities across all subsequent words, we find that all fractions except the initial \(\frac{1}{i} \) and the final \(\frac{N-1}{N} \) cancel out.
+3. **Compound Probabilities**: Multiplying these probabilities across all subsequent words, we find that all fractions except the initial $\frac{1}{i} $ and the final $\frac{N-1}{N} $ cancel out.
 
-4. **Final Probability**: Combining the initial selection probability with the compounded retention probability gives a total probability of \(\frac{1}{N} \) for each word, ensuring equal chances for all.
+4. **Final Probability**: Combining the initial selection probability with the compounded retention probability gives a total probability of $\frac{1}{N} $ for each word, ensuring equal chances for all.
 
 ## Why This Matters
 
