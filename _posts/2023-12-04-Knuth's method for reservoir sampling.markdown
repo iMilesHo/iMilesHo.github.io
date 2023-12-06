@@ -84,3 +84,6 @@ Therefore, the gradient \(\nabla f(x)\) is \(Ax + b\).
 Now, if you're looking to compute the Hessian \(\nabla^2 f(x)\) of \(f(x)\), which is the matrix of second-order partial derivatives, it becomes even simpler in this case. Since the first term is a quadratic form and the second is a linear term, the second derivative of the linear term with respect to \(x\) is zero, and the second derivative of the quadratic form \(\frac{1}{2}x^T A x\) with respect to \(x\) is just the matrix \(A\) itself because the derivative of \(Ax\) with respect to \(x\) is \(A\).
 
 So, the Hessian \(\nabla^2 f(x)\) is simply \(A\).
+
+
+$$ x = y^2 $$
