@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linear Algebra Foundation based Homework Problems"
+title: "Linear Algebra Foundation based Homework Problems - Gradients and Hessians"
 date: 2023-12-06 01:29
 category: Linear Algebra Foundations based Problems 
 ---
