@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linear Algebra Foundation"
+title: "Linear Algebra Foundation based Homework Problems"
 date: 2023-12-06 01:29
 category: Linear Algebra Foundations based Problems 
 ---
@@ -85,7 +85,6 @@ Thus, the gradient $ \nabla f(x) $ of the function $ f(x) $ is $ Ax + b $.
 
 Find the gradient $ \nabla f(x) $ of the function $ f(x) = g(h(x)) $, where $ g: \mathbb{R} \rightarrow \mathbb{R} $ is differentiable and $ h: \mathbb{R}^n \rightarrow \mathbb{R} $ is differentiable.
 
-#### Step-by-step solution:
 1. By the chain rule for gradients, the gradient of $ f $ with respect to $ x $ is the product of the derivative of $ g $ with respect to $ h(x) $ and the gradient of $ h $ with respect to $ x $:
 
    $$
@@ -98,7 +97,6 @@ Find the gradient $ \nabla f(x) $ of the function $ f(x) = g(h(x)) $, where $ g:
 
 Given $ f(x) = \frac{1}{2} x^T A x + b^T x $, where $ A $ is symmetric and $ b \in \mathbb{R}^n $ is a vector, find the Hessian $ \nabla^2 f(x) $.
 
-#### Step-by-step solution:
 1. We have already calculated $ \nabla f(x) = Ax + b $ in problem 1(a).
 2. Now, to find the Hessian, we differentiate the gradient $ \nabla f(x) $ with respect to $ x $ again.
 3. The derivative of $ Ax $ with respect to $ x $ is $ A $ since $ A $ is constant with respect to $ x $.
@@ -112,20 +110,47 @@ Given $ f(x) = \frac{1}{2} x^T A x + b^T x $, where $ A $ is symmetric and $ b \
 
 ### Problem 1(d) Solution
 
-Find the gradient $ \nabla f(x) $ and the Hessian $ \nabla^2 f(x) $ of the function $ f(x) = g(a^T x) $, where $ g: \mathbb{R} \rightarrow \mathbb{R} $ is continuously differentiable and $ a \in \mathbb{R}^n $ is a vector.
+To solve problem 1(d), we need to find the gradient $ \nabla f(\mathbf{x}) $ and the Hessian $ \nabla^2 f(\mathbf{x}) $ of the function $ f(\mathbf{x}) = g(a^T \mathbf{x}) $, where $ g: \mathbb{R} \rightarrow \mathbb{R} $ is continuously differentiable and $ a \in \mathbb{R}^n $ is a vector.
 
-#### Step-by-step solution:
-1. To find $ \nabla f(x) $, we apply the chain rule as in problem 1(b):
+#### Finding the Gradient $ \nabla f(\mathbf{x}) $:
 
+The gradient of a scalar function is a vector of its first partial derivatives. Here, we use the chain rule:
+
+1. **Apply the chain rule**:
+   $ f(\mathbf{x}) = g(u) $ with $ u = a^T \mathbf{x} $. The derivative of $ f $ with respect to $ x_i $ is:
    $$
-   \nabla f(x) = g'(a^T x) \cdot a
+   \frac{\partial f}{\partial x_i} = \frac{\partial g}{\partial u} \cdot \frac{\partial u}{\partial x_i}
+   $$
+   where $ \frac{\partial u}{\partial x_i} = a_i $.
+
+2. **Compute the gradient**:
+   $$
+   \nabla f(\mathbf{x}) = \left[ \begin{array}{c}
+   \frac{\partial g}{\partial u} a_1 \\
+   \vdots \\
+   \frac{\partial g}{\partial u} a_n
+   \end{array} \right]
+   $$
+   Factoring out $ \frac{\partial g}{\partial u} $:
+   $$
+   \nabla f(\mathbf{x}) = g'(a^T \mathbf{x}) \cdot a
    $$
 
-2. To find $ \nabla^2 f(x) $, we differentiate $ \nabla f(x) $ with respect to $ x $ again, taking into account that $ g'(a^T x) $ is a function of $ x $:
+#### Finding the Hessian $ \nabla^2 f(\mathbf{x}) $:
 
+The Hessian is a square matrix of second partial derivatives.
+
+1. **Use the product rule**:
+   For the second derivatives, we differentiate $ g'(a^T \mathbf{x}) \cdot a $ again with respect to $ x $.
+
+2. **Compute the Hessian**:
+   Each element $ (i, j) $ of the Hessian is:
    $$
-   \nabla^2 f(x) = g''(a^T x) \cdot aa^T
+   \frac{\partial^2 f}{\partial x_i \partial x_j} = a_i \cdot g''(a^T \mathbf{x}) \cdot a_j
+   $$
+   Thus, the Hessian matrix is:
+   $$
+   \nabla^2 f(\mathbf{x}) = g''(a^T \mathbf{x}) \cdot a a^T
    $$
 
-   where $ g''(a^T x) $ is the second derivative of $ g $ with respect to its argument, evaluated at $ a^T x $, and is a scalar.
-
+The gradient is a vector in the direction of $ a $ scaled by $ g' $, and the Hessian is an outer product of $ a $ with itself, scaled by $ g'' $.
