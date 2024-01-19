@@ -7,6 +7,8 @@ tags: Tools AWS
 categories: posts
 giscus_comments: true
 related_posts: true
+toc:
+  sidebar: left
 ---
 
 ## [What is IAM?](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)

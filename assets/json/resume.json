@@ -25,12 +25,22 @@
   "work": [
     {
       "name": "Changan Automobile",
-      "position": "Software Developement Engineer Permanent",
+      "position": "SDE | Permanent",
       "url": "http://www.globalchangan.com/",
-      "startDate": "Aug. 2021",
-      "endDate": "Jul. 20231",
-      "summary": "• Developed a user‐friendly iOS interface for the vehicle’s self‐parking feature using Swift and UIKit, adopting a finite state machine approach to enhance UI reliability, integrating MQTT protocols for real‐time control communication and managing RESTful API interactions and data parsing with Alamofire, a robust HTTP networking library, while adhering to MVC principles for code maintainability. \n• Refactored parts of a major iOS app, leading to a 10% reduction in code and 20% faster third‐party library integration, by developing and managing CocoaPod, a dependency manager, aligned components on the company’s private GitLab, significantly enhancing code reusability and maintainability. \n• Streamlined iOS app packaging and deployment for testing and App Store release, adopting TestFlight, an Apple tool, for efficient beta testing and crash logging, reducing the development cycle by two steps and enhancing collaboration with backend and automotive teams with the responsibility for troubleshooting app bugs. \n• Redeployed and maintained a Python and Flask API‐based FAQ answering service, a frequently asked questions system, on the cloud for a major mobile app using Docker and troubleshooting Python dependency issues and bug fixes during the reorganization phase of the company.",
+      "startDate": "2021-08-01",
+      "endDate": "2023-08-01",
+      "summary": "Developed a user‐friendly iOS interface for the vehicle’s self‐parking feature using Swift and UIKit. Redeployed and maintained a Python and Flask API‐based FAQ answering service, a frequently asked questions system, on the cloud for a major mobile app using Docker and troubleshooting Python dependency issues and bug fixes during the reorganization phase of the company.",
       "highlights": ["Swift", "Python"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "English‐speaking practice iOS APP",
+      "summary": "Developed an English‐speaking practice iOS app using Swift and SwiftUI at ATECHNOVA (Hamilton, ON), integrating Firebase for authentication and data storage, and a Siamese BiLSTM deep learning model for text analysis, deployed on AWS EC2.",
+      "highlights": ["iOS app", "Amazon Web Services", "Deep learning"],
+      "startDate": "2023-10-01",
+      "endDate": "2023-12-01",
+      "url": "https://github.com/iMilesHo/PitchTrainer"
     }
   ],
   "volunteer": [
@@ -145,15 +155,5 @@
     }
   ],
   "references": [
-  ],
-  "projects": [
-    {
-      "name": "English‐speaking practice iOS APP",
-      "summary": "Developed an English‐speaking practice iOS app using Swift and SwiftUI at ATECHNOVA (Hamilton, ON), integrating Firebase for authentication and data storage, and a Siamese BiLSTM deep learning model for text analysis, deployed on AWS EC2.",
-      "highlights": ["iOS app", "Amazon Web Services", "Deep learning"],
-      "startDate": "2023-10-01",
-      "endDate": "2023-12-01",
-      "url": "https://github.com/iMilesHo/PitchTrainer"
-    }
   ]
 }
