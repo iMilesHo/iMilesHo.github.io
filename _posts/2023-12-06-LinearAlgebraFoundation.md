@@ -3,7 +3,7 @@ layout: post
 title: Linear Algebra Foundation
 date: 2023-12-06 11:10:10
 description: About Linear Algebra Foundation
-tags: Linear Algebra
+tags: Math
 categories: posts
 giscus_comments: true
 related_posts: true

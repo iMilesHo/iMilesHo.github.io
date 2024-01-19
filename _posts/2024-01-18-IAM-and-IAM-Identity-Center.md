@@ -3,7 +3,7 @@ layout: post
 title: IAM and IAM Identity Center
 date: 2024-01-18 18:18:10
 description: About AWS Sign-In
-tags: Shell
+tags: Tools AWS
 categories: posts
 giscus_comments: true
 related_posts: true

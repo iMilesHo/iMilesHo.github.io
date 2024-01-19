@@ -3,7 +3,7 @@ layout: post
 title: ANN Backpropagation Process
 date: 2023-11-01 22:10:10
 description: About ANN Backpropagation Process
-tags: ANN Backpropagation
+tags: MechineLearning
 categories: posts
 giscus_comments: true
 related_posts: true

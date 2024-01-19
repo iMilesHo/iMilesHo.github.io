@@ -3,7 +3,7 @@ layout: post
 title: iOS development debuging error record
 date: 2023-10-07 16:40:16
 description: Here is the iOS development debuging error record.
-tags: iOS Error
+tags: iOS Programming Error
 categories: posts
 giscus_comments: true
 related_posts: true

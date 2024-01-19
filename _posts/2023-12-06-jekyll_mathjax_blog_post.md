@@ -3,7 +3,7 @@ layout: post
 title: jeckyll mathjax blog post
 date: 2023-12-06 12:10:10
 description: A step-by-step guide to displaying math equations in Jekyll using MathJax.
-tags: Jekyll MathJax
+tags: Tools
 categories: posts
 giscus_comments: true
 related_posts: true

@@ -3,7 +3,7 @@ layout: post
 title: Linear Algebra Foundation based Homework Problems - Eigenvectors, eigenvalues, and the spectral theorem
 date: 2023-12-07 11:10:10
 description: About Linear Algebra Foundation
-tags: Linear Algebra Eigenvalues Eigenvectors Spectral Theorem
+tags: Math
 categories: posts
 giscus_comments: true
 related_posts: true

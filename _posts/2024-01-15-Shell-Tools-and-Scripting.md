@@ -3,7 +3,7 @@ layout: post
 title: Shell Tools and Scripting
 date: 2024-01-15 11:10:10
 description: About Shell Tools and Scripting
-tags: Shell
+tags: Shell Tools
 categories: posts
 giscus_comments: true
 related_posts: true

@@ -3,7 +3,7 @@ layout: post
 title: The Activation Functions in Deep Learning
 date: 2024-01-18 12:10:10
 description: About AWS Sign-In
-tags: Shell
+tags: DeepLearning
 categories: posts
 giscus_comments: true
 related_posts: true

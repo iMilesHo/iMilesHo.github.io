@@ -3,7 +3,7 @@ layout: post
 title: Enlish Email Record
 date: 2024-01-16 16:10:10
 description: About Enlish Email Record
-tags: Shell
+tags: EnglishLearning 
 categories: posts
 giscus_comments: true
 related_posts: true

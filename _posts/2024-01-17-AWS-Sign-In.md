@@ -3,7 +3,7 @@ layout: post
 title: AWS Sign-In
 date: 2024-01-17 20:10:10
 description: About AWS Sign-In
-tags: Shell
+tags: Tools AWS
 categories: posts
 giscus_comments: true
 related_posts: true

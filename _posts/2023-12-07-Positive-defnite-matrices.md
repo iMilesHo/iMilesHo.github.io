@@ -3,7 +3,7 @@ layout: post
 title: Linear Algebra Foundation based Homework Problems - Positive defnite matrices
 date: 2023-12-07 19:10:10
 description: About Linear Algebra Foundation
-tags: Linear Algebra Positive Definite Matrices
+tags: Math
 categories: posts
 giscus_comments: true
 related_posts: true
