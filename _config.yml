@@ -264,7 +264,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["Algorithms", "Programming", "MechineLearning", "DeepLearning", "Math","Tools"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_categories: ["posts"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
