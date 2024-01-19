@@ -4,11 +4,29 @@ title: LSTM and Siamese based PitchTrainer similarity calculation
 description: using Siamese network architecture and LSTM layers to process the input data
 img: assets/img/languageTrainer.png
 importance: 1
-category: Fun
+category: fun
 related_publications: false
 ---
 
-# LSTM and Siamese based PitchTrainer similarity calculation
+## Abstract
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/languageTrainer.png" title="Hardware" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The architecture of the Pitch Trainer project.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/siameseNetwork.png" title="Hardware" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The architecture of the Siamese network.
+</div>
 
 ## Introduction
 This project is a part of the PitchTrainer project. The goal of this project is to create a similarity calculation model for the PitchTrainer project. The model is based on the Siamese network architecture and uses LSTM layers to process the input data. Text similarity recognition is the key part of our project. We think that if the recognized text from Apple speech recognition API is semantic equivalent to the original text relatively, the audio can be also comprehended by a native speaker. So the problem to be addressed in this project is to use the Siamese architecture deep learning model which its two subnetworks are all LSTM layers to recognize the semantic similarities between the two texts.
