@@ -131,7 +131,7 @@ pagination:
 
 related_blog_posts:
   enabled: true
-  max_related: 5
+  max_related: 3
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -139,7 +139,7 @@ giscus:
   repo: iMilesHo/iMilesHo.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOLGyCuQ # leave empty or specify your repo_id (see https://giscus.app/)
   category: Announcements # name of the category under which discussions will be created
-  category_id: DIC_kwDOLGyCuc4Cch # leave empty or specify your category_id (see https://giscus.app/)
+  category_id: DIC_kwDOLGyCuc4Cch-l # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 0 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
@@ -147,6 +147,8 @@ giscus:
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
+  crossorigin: anonymous
+  async: true
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: # put your disqus shortname
