@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Troubleshooting Nginx and uWSGI: Resolving Permission Denied Errors
+title: Troubleshooting Nginx and uWSGI
 date: 2024-01-30 12:00:00
 description: Diagnosing and solving Nginx and uWSGI permission issues
 tags: Nginx uWSGI Troubleshooting
