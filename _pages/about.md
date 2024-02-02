@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Open to 2024 Software Developer Internship(Co-op) Opportunities | @changan Automobile SWE | CS Master Student @McMaster
+subtitle: Open to 2024 Software Developer Internship or Co-op Opportunities | @changan Automobile SWE | CS Master Student @McMaster
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: > # add some funny information below my profile picture
-    <p>Fell free to reach me at: <a href="mailto:imilesho@gmail.com"><i class="fas fa-envelope"></i> </a></p>
+  more_info: > 
+    <p>A Human Being</p>
+
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
@@ -24,7 +25,7 @@ I’m a first-year CS Master's student at **McMaster University**, Canada, and r
 - 🤔 I'm looking for 2024 Co-op / Internship / New Grad / Junior Software Developer opportunities
 - :seedling: I’m learning ![badge_javascript] & ![badge_react].
 - ☕ Coffee Chat: [https://www.buymeacoffee.com/milesho](https://www.buymeacoffee.com/milesho)
-- 📫 Feel free to reach me at: imilesho@gmail.com
+- 📫 Feel free to reach me at: [imilesho@gmail.com][e-mail]
 
 ### :microscope: Tech && Tools Preference
 
