@@ -6,11 +6,11 @@
     "email": "imilesho@gmail.com",
     "phone": "+1 (905) 962 5388",
     "url": "https://imilesho.github.io/",
-    "summary": "I’m currently studying as a graduate student at McMaster University majoring in Engineering of Systems and Technology.",
+    "summary": "SDE",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Hamilton",
+      "city": "Tornoto",
       "countryCode": "CA",
       "region": "Ontario"
     },
@@ -29,14 +29,14 @@
       "url": "http://www.globalchangan.com/",
       "startDate": "2021-08-01",
       "endDate": "2023-08-01",
-      "summary": "Developed a user‐friendly iOS interface for the vehicle’s self‐parking feature using Swift and UIKit. Redeployed and maintained a Python and Flask API‐based FAQ answering service, a frequently asked questions system, on the cloud for a major mobile app using Docker and troubleshooting Python dependency issues and bug fixes during the reorganization phase of the company.",
+      "summary": "Python Backend Development and iOS Development",
       "highlights": ["Swift", "Python"]
     }
   ],
   "projects": [
     {
       "name": "English‐speaking practice iOS APP",
-      "summary": "Developed an English‐speaking practice iOS app using Swift and SwiftUI at ATECHNOVA (Hamilton, ON), integrating Firebase for authentication and data storage, and a Siamese BiLSTM deep learning model for text analysis, deployed on AWS EC2.",
+      "summary": "Develop an iOS app to help Chinese students practice English speaking.",
       "highlights": ["iOS app", "Amazon Web Services", "Deep learning"],
       "startDate": "2023-10-01",
       "endDate": "2023-12-01",
@@ -65,7 +65,7 @@
       "studyType": "Bachelor of Engineering",
       "startDate": "2017-09-01",
       "endDate": "2021-06-16",
-      "score": "3.22/4.00",
+      "score": "",
       "courses": []
     }
   ],
