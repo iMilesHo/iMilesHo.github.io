@@ -414,6 +414,76 @@ z = np.dot(x, y)
 
 ### Pratical Python Tips
 
+- Use list comprehensions to create lists
+```python
+# Slow
+squares = []
+for i in range(10):
+  squares.append(i ** 2)
+
+# Fast
+squares = [i ** 2 for i in range(10)]
+# can also use conditionals
+squares = [i ** 2 for i in range(10) if i % 2 == 0]
+```
+
+- Convenient Syntax
+```python
+# Swap two variables
+a, b = 1, 2
+a, b = b, a
+
+# Multiple assignment
+a, b, c = 1, 2, 3
+a, b, c = ('Alice', 25, True)
+
+# Unpack a list
+x = [1, 2, 3]
+a, b, c = x
+
+# Return multiple values from a function
+def f():
+  return 1, 2, 3
+a, b, c = f()
+
+# Joining list of strings with a delimiter
+names = ['Alice', 'Bob', 'Charlie']
+', '.join(names) # 'Alice, Bob, Charlie'
+
+# String literals with both single and double quotes
+s = "Hello, 'world'"
+s = 'Hello, "world"'
+```
+
+- Debugging Tips: use interactive shell
+  - Python has no integer overflow
+  - Try out syntax
+  - array.shape, array.dtype, type(array)
+  - import pdb; pdb.set_trace() # set a breakpoint
+  - or breakpoint() # Python 3.7+, set a breakpoint
+  - print(f’My name is {name}’) # f-string, Python 3.6+, string interpolation
+
+```python
+array.shape # get the shape of the numpy array
+array.dtype # get the element data type of the numpy array
+type(array) # get the type of a variable
+```
+
+- Common Errors
+  - SyntaxError: invalid syntax
+  - NameError: name 'x' is not defined
+  - TypeError: can only concatenate str (not "int") to str
+  - ValueError: invalid literal for int() with base 10: 'hello'
+  - IndexError: list index out of range
+  - KeyError: 'Alice'
+  - AttributeError: 'list' object has no attribute 'append'
+  - IndentationError: expected an indented block
+  - ZeroDivisionError: division by zero
+  - FileNotFoundError: [Errno 2] No such file or directory: 'file.txt'
+  - ModuleNotFoundError: No module named 'numpy'
+
 ### Other Great References
 
-
+- Official Python 3 documentation: https://docs.python.org/3/
+- Official Anaconda user guide: https://docs.conda.io/projects/conda/en/latest/user-guide/index.html
+- Official NumPy documentation: https://numpy.org/doc/stable/
