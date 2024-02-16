@@ -4,7 +4,7 @@ title: Tokenization and Embedding Layer
 date: 2024-02-13 12:00:00
 description: NLP tokenization and embedding layer
 tags: DeepLearning NLP
-categories: posts
+categories: notes
 giscus_comments: true
 related_posts: true
 toc:
